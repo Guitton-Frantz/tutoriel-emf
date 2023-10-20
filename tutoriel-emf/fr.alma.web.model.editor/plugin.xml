@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.0"?>
+
+<!--
+-->
+
+<plugin>
+
+   <extension point="org.eclipse.ui.newWizards">
+      <!-- @generated webmodel -->
+      <category
+            id="org.eclipse.emf.ecore.Wizard.category.ID"
+            name="%_UI_Wizard_category"/>
+      <wizard
+            id="fr.alma.web.model.webmodel.presentation.WebmodelModelWizardID"
+            name="%_UI_WebmodelModelWizard_label"
+            class="fr.alma.web.model.webmodel.presentation.WebmodelModelWizard"
+            category="org.eclipse.emf.ecore.Wizard.category.ID"
+            icon="icons/full/obj16/WebmodelModelFile.gif">
+         <description>%_UI_WebmodelModelWizard_description</description>
+         <selection class="org.eclipse.core.resources.IResource"/>
+      </wizard>
+   </extension>
+
+   <extension point="org.eclipse.ui.editors">
+      <!-- @generated webmodel -->
+      <editor
+            id="fr.alma.web.model.webmodel.presentation.WebmodelEditorID"
+            name="%_UI_WebmodelEditor_label"
+            icon="icons/full/obj16/WebmodelModelFile.gif"
+            extensions="webmodel"
+            class="fr.alma.web.model.webmodel.presentation.WebmodelEditor"
+            contributorClass="fr.alma.web.model.webmodel.presentation.WebmodelActionBarContributor">
+      </editor>
+   </extension>
+
+</plugin>
