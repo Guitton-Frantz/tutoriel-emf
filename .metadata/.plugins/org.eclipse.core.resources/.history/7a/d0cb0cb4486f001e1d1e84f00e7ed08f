@@ -1,9 +1,0 @@
-package fr.alma.website.plugin;
-
-public class Main {
-	public static void main(String[] args) {
-		WebmodelPackage wPackage = WebmodelPackage.eINSTANCE;
-		WebmodelFactory factory = wPackage.getWebmodelFactory();
-	}
-
-}

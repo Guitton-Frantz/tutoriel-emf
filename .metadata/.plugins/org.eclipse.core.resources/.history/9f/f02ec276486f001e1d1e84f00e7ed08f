@@ -1,7 +1,0 @@
-Manifest-Version: 1.0
-Bundle-ManifestVersion: 2
-Bundle-Name: Alma
-Bundle-SymbolicName: fr.alma.website.plugin
-Bundle-Version: 1.0.0.qualifier
-Automatic-Module-Name: fr.alma.website.plugin
-Bundle-RequiredExecutionEnvironment: JavaSE-17
